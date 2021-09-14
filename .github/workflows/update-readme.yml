@@ -12,6 +12,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: Merathilis/Merathilis@master
+      - uses: Merathilis/Merathilis@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
